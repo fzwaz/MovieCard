@@ -1,16 +1,56 @@
-# React + Vite
+# Favorite Movies Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app built with Vite that showcases my favorite movies, why I love them, and my movie preferences.
 
-Currently, two official plugins are available:
+## Links
+- **GitHub Repository:**[](https://github.com/fzwaz/MovieCard)
+- **Live Website:** [](https://movie-card-8t3v.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- React + Vite single-page application  
+- Introduction about movie interests  
+- List of 4 favorite movies with genre & description  
+- Personal movie preferences section  
+- Clean layout with basic styling  
 
-## React Compiler
+## Run Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Clone the repository
+```bash
+git clone <your-repo-link>
+cd favorite-movies
+```
 
-## Expanding the ESLint configuration
+### 2. Install dependencies
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Start development server
+```bash
+npm run dev
+```
+
+## Build for Production
+```bash
+npm run build
+```
+
+## Deploy
+
+### Vercel
+1. Go to https://vercel.com  
+2. Import your GitHub repository  
+3. Build command: `npm run build`  
+4. Output folder: `dist`  
+
+### Netlify
+1. Go to https://netlify.com  
+2. New Site → Import from Git  
+3. Build command: `npm run build`  
+4. Publish directory: `dist`  
+
+## Submission Reminder
+✔️ Delete the `node_modules` folder  
+✔️ Zip the entire project  
+✔️ Include GitHub & deployment links inside this README.md  
