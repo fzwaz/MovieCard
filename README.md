@@ -3,8 +3,8 @@
 A simple React app built with Vite that showcases my favorite movies, why I love them, and my movie preferences.
 
 ## Links
-- **GitHub Repository:**[](https://github.com/fzwaz/MovieCard)
-- **Live Website:** [](https://movie-card-8t3v.vercel.app/)
+- **GitHub Repository:** (https://github.com/fzwaz/MovieCard)
+- **Live Website:**  (https://movie-card-8t3v.vercel.app/)
 
 ## Features
 - React + Vite single-page application  
